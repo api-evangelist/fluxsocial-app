@@ -1,4 +1,4 @@
-# fluxsocial-app
+# FluxSocial
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fluxsocial-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fluxsocial.app/
+FluxSocial provides AI‑generated promo videos, captions and social‑media post ideas from a single text prompt or website URL. Users can create short reels for TikTok, Instagram Reels or YouTube Shorts, edit the output via chat, and get brand‑voice‑consistent captions. The platform also suggests next‑post ideas and automates visual creation, targeting small businesses and creators looking to boost engagement.
+
+**Areas:** AI · Social Media · Video Generation · Marketing · Automation
+
+## FluxSocial on APIs.io
+
+Everything profiled for FluxSocial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fluxsocial-app/](https://apis.io/providers/fluxsocial-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [FluxSocial API](https://apis.io/apis/fluxsocial-app/fluxsocial-api/) — API for FluxSocial platform providing AI‑generated promo videos, captions and social‑media post ideas.
+- [FluxSocial API](https://apis.io/apis/fluxsocial-app/fluxsocial-app-api/) — FluxSocial API as documented publicly: 12 operations. Contract generated from the documentation by API Evangelist (2026-11-08); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1AccountsResponse](https://apis.io/schemas/fluxsocial-app/fluxsocial-app-get-api-v1-accounts-response/)
+- [PostApiV1ContentRequest](https://apis.io/schemas/fluxsocial-app/fluxsocial-app-post-api-v1-content-request/)
+- [PostApiV1ContentSug001ScheduleRequest](https://apis.io/schemas/fluxsocial-app/fluxsocial-app-post-api-v1-content-sug001-schedule-request/)
+- [PostApiV1ContentUploadMediaRequest](https://apis.io/schemas/fluxsocial-app/fluxsocial-app-post-api-v1-content-upload-media-request/)
+- [PostApiV1CreditsBalanceResponse](https://apis.io/schemas/fluxsocial-app/fluxsocial-app-post-api-v1-credits-balance-response/)
+- [PostApiV1VideoRequest](https://apis.io/schemas/fluxsocial-app/fluxsocial-app-post-api-v1-video-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fluxsocial App Context](https://apis.io/jsonld/fluxsocial-app/fluxsocial-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FluxSocial API Rules](https://apis.io/rules/fluxsocial-app/fluxsocial-app-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fluxsocial App Domain Security](https://apis.io/security/fluxsocial-app/fluxsocial-app-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fluxsocial App Plans Pricing](https://apis.io/plans/fluxsocial-app/fluxsocial-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.fluxsocial.app/)
+- [Documentation](https://www.fluxsocial.app/guides)
+- [Pricing](https://www.fluxsocial.app/pricing)
+- [Sign up](https://www.fluxsocial.app/sign-up)
+- [Terms of service](https://www.fluxsocial.app/legal/terms)
+- [Privacy policy](https://www.fluxsocial.app/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.8** — developing · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fluxsocial-app/](https://apis.io/providers/fluxsocial-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FluxSocial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fluxsocial-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
